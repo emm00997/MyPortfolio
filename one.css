@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #403328;
+    transition: all 0.6s ease;
+}
+
+/*THIS IS THE TOP 4 NAV BAR THINGS*/
+.toplist{
+    color: whitesmoke;
+    margin-left: 45.8rem;
+    margin-top: 2.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.li-one{
+    display: inline-block;
+    font-size: 1.7rem;
+    padding-right: 1.3rem;
+    
+}
+
+.li-two{
+display: inline-block;
+font-size: 1.7rem;
+padding-right: 1.3rem;
+}
+
+
+
+.li-three{
+display: inline-block;
+font-size: 1.7rem;
+padding-right: 1.3rem;
+}
+
+
+.li-four{
+display: inline-block;
+font-size: 1.7rem;
+padding-right: 1.3rem;
+}
+
+.hovering{
+    transition: color 200ms linear;
+}
+
+.hovering:hover{
+    cursor: pointer;
+    color: #8C4830;
+}
+/*END OF TOP 4 NAV BAR THINGS*/
+
+/*THE HELLO WORD+ DROPPING HELLO DOWN ANIMATION*/
+
+.hello{
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    font-size: 8.5rem;
+    letter-spacing: 1.6rem;
+    margin-left: 7.3rem;
+    margin-top: 7rem;
+
+}
+
+.hellobox,
+.hello{
+    animation: heading;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes heading{
+    0% {top: -180px;}
+    100% {top: -32px;}
+  }
+/* END OF THE HELLO ANIMATION*/
+
+/*SLIDING IN WORDS SECTION*/
+
+.intro-text{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: 'IBM Plex Mono', monospace;
+    opacity: 1.8;
+    position: relative;
+    margin-left: 3rem;
+    animation-name: content;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes content{
+    0% {left: -1000px;}
+    100% {left: -8px;}
+    0% {top:-70px}
+    100%{top: -70px}
+  }
+
+/*END OF SLIDING IN WORD SECTION*/
+
+/*THE LINE AFTER WORDS*/
+
+.line-pad{
+    padding-bottom: 7rem;
+}
+
+.the-line{
+        position: relative;
+        padding-bottom: -1rem;
+        border: 4px solid whitesmoke;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        margin-left: 8rem;
+        margin-right: 8rem; 
+        padding-top: -3rem;
+        
+}
+/*END OF LINE*/
+
+/*ABOUT ME SECTION*/
+
+.about{
+    font-size: 5rem;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    margin-left: 27rem;
+    
+}
+
+
+.aboutme-p{
+    color: whitesmoke;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 15rem;
+}
