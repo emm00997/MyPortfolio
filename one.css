@@ -40,13 +40,23 @@ display: inline-block;
 font-size: 1.7rem;
 padding-right: 1.3rem;
 }
+ 
+.liA{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color 200ms linear;
+}
+.liA:hover{
+    color: #8C4830;
+    cursor: pointer;
+}
 
 .hovering{
     transition: color 200ms linear;
 }
 
 .hovering:hover{
-    cursor: pointer;
+    cursor: pointer;;
     color: #8C4830;
 }
 /*END OF TOP 4 NAV BAR THINGS*/
@@ -139,3 +149,106 @@ padding-right: 1.3rem;
     font-family: 'IBM Plex Mono', monospace;
     margin-left: 15rem;
 }
+/*END OF ABOUT ME*/
+
+/*START OF PROJECT SECTION*/
+
+/*NATIONAL PARK TITLE AND WORDS*/
+.project-title{
+    font-size: 5rem;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    margin-left: 5rem;
+}
+
+
+
+.titleOne{
+    margin-left: 24rem;
+    font-family: 'Inter', sans-serif;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    
+}
+
+.titleOne-P{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    font-family: 'IBM Plex Mono', monospace;
+    color: whitesmoke;
+    margin-left: 7.8rem;
+   
+}
+
+.highlight{
+    margin-left: 15rem;
+    font-size: 1.4rem;
+}
+
+
+/*END OF NATIONAL PARK HOVER AND WORDS*/
+
+
+/* BLACKSTONE TITLE AND WORDS*/
+
+.titleTwo{
+margin-left: 30rem;
+font-family: 'Inter', sans-serif;
+color: whitesmoke;
+font-size: 2.5rem;
+}
+
+.titleTwo-P{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    font-family: 'IBM Plex Mono', monospace;
+    color: whitesmoke;
+    margin-left: 13rem;
+}
+
+.highlight-2{
+    font-size: 1.4rem;
+margin-left: 11rem;
+}
+
+/*END OF BLACKSTONE TITLE AND WORDS*/
+
+
+/*LAWFIRM TITLE AND WORDS*/
+
+
+.titleThree{
+margin-left: 29.3rem;
+font-family: 'Inter', sans-serif;
+color: whitesmoke;
+font-size: 2.5rem;
+}
+
+.titleThree-P{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    font-family: 'IBM Plex Mono', monospace;
+    color: whitesmoke;
+    margin-left: 15rem;
+    
+}
+
+.highlight-3{
+    font-size: 1.4rem;
+    margin-left: 12rem;
+}
+
+
+.titleA{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color 210ms linear;
+
+}
+
+.titleA:hover{
+color: #bdafa1;
+cursor: pointer;
+}
+/*END OF LAWFIRM TITLE AND WORDS*/
+
