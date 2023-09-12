@@ -247,8 +247,16 @@ font-size: 2.5rem;
 }
 
 .titleA:hover{
-color: #bdafa1;
+color: #b19b8b;
 cursor: pointer;
 }
 /*END OF LAWFIRM TITLE AND WORDS*/
 
+/*START OF SKILL SECTION*/
+
+.skill-title{
+    font-size: 5rem;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    margin-left: 5rem;
+}
