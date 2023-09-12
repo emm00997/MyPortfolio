@@ -145,7 +145,62 @@ padding-right: 1.3rem;
 
 .myinfo{
     font-size: 5rem;
-    color: whitesmoke;
+    color: #403328;
     font-family: 'Inter', sans-serif;
     margin-left: 4rem;
+}
+
+.etitle{
+    color: whitesmoke;
+    font-size: 3.5rem;
+    margin-left: 31rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.elink{
+    margin-left: 28rem;
+    color: whitesmoke;
+    font-size: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: .27rem;
+    transition: color 400ms linear;
+}
+.elink:hover{
+    color: #36281F;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.gtitle{
+    margin-left: 26.1rem;
+    color: whitesmoke;
+    font-size: 3.5rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+
+.glinkA{
+    border: 3px solid #403328;
+    border-radius: 12px;
+    background-color: #36281F;
+    margin-left: 29rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: .50rem;
+    padding-bottom: .50rem;
+    letter-spacing: .27rem;
+    font-size: 1.7rem;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    transition: background-color 400ms linear , color 400ms linear , border-color 400ms linear;
+}
+
+.glinkA:hover{
+    color: #36281F;
+    font-weight: bolder;
+    background-color:#736355;
+    cursor: pointer;
+    border-color: whitesmoke;
 }
