@@ -129,6 +129,18 @@ padding-right: 1.3rem;
         padding-top: -3rem;
         
 }
+
+.the-lineTwo{
+    position: relative;
+    padding-bottom: -1rem;
+    border: 4px solid #36281F;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 8rem;
+    margin-right: 8rem; 
+    padding-top: -3rem;
+}
 /*END OF LINE*/
 
 /*ABOUT ME SECTION*/
@@ -254,9 +266,157 @@ cursor: pointer;
 
 /*START OF SKILL SECTION*/
 
-.skill-title{
+#skill-title{
     font-size: 5rem;
     color: whitesmoke;
     font-family: 'Inter', sans-serif;
     margin-left: 5rem;
+}
+
+.wholeflex{
+display: flex;
+flex-direction: row;
+margin-left: 13rem;
+}
+
+/*START OF SKILL LIST ONE*/
+.containerOne{
+    padding-right: 2rem;
+}
+
+
+.lione{
+    background-color: #746754;
+    border: 3px solid #36281F;
+    border-radius: 29px;
+    padding-left: 3.1rem;
+    padding-right: 3.1rem;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+list-style: none;
+font-family: 'IBM Plex Mono', monospace;
+color: whitesmoke;
+transition: background-color 200ms linear;
+
+}
+
+.lione:hover{
+    background-color: #36281F;
+    cursor: pointer;
+}
+/*END OF SKILL LIST ONE*/
+
+
+/*START OF SKILL LIST TWO*/
+.containerTwo{
+padding-right: 2rem;
+}
+
+
+.liTwo{
+    background-color: #746754;
+    border: 3px solid #36281F;
+    border-radius: 29px;
+    padding-left: 3.1rem;
+    padding-right: 3.1rem;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+    font-family: 'IBM Plex Mono', monospace;
+    color: whitesmoke;
+    transition: background-color 200ms linear;
+}
+
+.liTwo:hover{
+    background-color: #36281F;
+    cursor: pointer;
+}
+/*END OF SKILL LIST TWO*/
+
+
+/*START OF SKILL LIST THREE*/
+.liThree{
+    background-color: #746754;
+    border: 3px solid #36281F;
+    border-radius: 29px;
+    padding-left: 3.1rem;
+    padding-right: 3.1rem;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+    font-family: 'IBM Plex Mono', monospace;
+    color: whitesmoke;
+    transition: background-color 200ms linear;
+}
+
+.liThree:hover{
+    background-color: #36281F;
+    cursor: pointer;
+}
+/*END OF SKILL LIST THREE*/
+
+/*START OF SKILL LIST FOUR*/
+.flexTwo{
+    display: flex;
+flex-direction: row;
+margin-left: 18rem;
+}
+
+.liFour{
+    background-color: #746754;
+    border: 3px solid #36281F;
+   padding-left: 10.3rem;
+   padding-right: 10rem;
+    border-radius: 29px;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+    font-family: 'IBM Plex Mono', monospace;
+    color: whitesmoke;
+    transition: background-color 200ms linear;
+    
+}
+
+.liFour:hover{
+    background-color: #36281F;
+    cursor: pointer;
+}
+/*END OF SKILL LIST FOUR*/
+
+.foottext-1{
+    font-size: 1.27rem;
+    color: whitesmoke;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 15rem;
+}
+
+.foottext-2{
+    font-size: 1.37rem;
+    color: whitesmoke;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 30rem;
+}
+
+.inputbox{
+    font-size: 1.13rem;
+    font-family: 'Inter', sans-serif;
+    background-color: #36281F;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-radius: 20px;
+     margin-left: 24rem;
+     width: 32rem;
+     height: 1.5rem;
+     
+}
+
+.subbutt{
+   background-color:#ceb5a0;
+   color: #36281F;
+    font-weight: bolder;
+    border-radius: 12px;
+    height: 2rem;
+    width: 8rem;
+    font-size: 1.17rem;
+    font-family: 'Inter', sans-serif;
 }
